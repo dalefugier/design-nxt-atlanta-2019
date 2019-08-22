@@ -13,8 +13,8 @@ namespace ConsoleApp
     static void Main(string[] args)
     {
       // TODO: Add Rhino.Compute authorization code here
-      ComputeServer.AuthToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwIjoiUEtDUyM3IiwiYyI6IkFFU18yNTZfQ0JDIiwiYjY0aXYiOiJIdDAwclhxeFdoWWcwRUVCMTdMcVlnPT0iLCJiNjRjdCI6Ilp0OEo3NWVPVldXKzNUb3M5bEgzcmFHZURERytYcGlzZ0h2VjZwY0pJbFNMMGJCMlVuTnZUc3p1NWtrZEx6UjN4aW5uZGxIV2dyT1QxNEo5QzYvTUxxa3R1dVBsdmJiNXJwUncxWHl1Mk91aTl3R0twTUZOY0pHSloyUHlrVnUwTzFRMk5lQTNsSTdaMmRwY2lXYm1JOUJ6bDNUdm5mS0k1d1JaR1BISU1xU2tJL29GYWhkZFZKQ3pjamdBSDZOdHFWSDA3bFFFUmY1ZnBOMFRicVA5V3c9PSIsImlhdCI6MTU2NjQ4NTA2MH0.LePqxTHPVz_NL8Hm6O32xZUrJXLektHZDjcangpKQBM";
-
+      ComputeServer.AuthToken = "ADD_TOKEN_HERE"
+      
       // Use Rhino3dm methods
       var sphere = new Sphere(Plane.WorldXY, 5.0);
       var brep = sphere.ToBrep();
