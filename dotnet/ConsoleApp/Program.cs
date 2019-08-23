@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Rhino.Compute;
 using Rhino.Geometry;
 
@@ -13,7 +9,7 @@ namespace ConsoleApp
     static void Main(string[] args)
     {
       // TODO: Add Rhino.Compute authorization code here
-      ComputeServer.AuthToken = "ADD_TOKEN_HERE"
+      ComputeServer.AuthToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJwIjoiUEtDUyM3IiwiYyI6IkFFU18yNTZfQ0JDIiwiYjY0aXYiOiJLYVBqQ2VkS29xZkRQRXZNM0ZGYytBPT0iLCJiNjRjdCI6InJHYWp3blhmMnlWN1B2SElra3g1ZWJpbFI2bUdwWThtc04yL0kwY3ZJN1Z0ZHlZdU56bnFzMHljV0w4RjcxaHlZeHVoUVJreXFlVEJEeFZWVEVWN3ZudTIxQUVPYnYyeVBkUm9rZ1RNUS9lamJibWMwbTBSMU1JeGVsK1RFdjU0VjYxOHN0aWVuS3lkQzJPWmllcDFCc0tuZTlIbmxwKzNyVFQrSldlbGN2amNHNnpCakY4dDFBVm1mK2FKSHVGZVRaOGM0dzU4bDc1ZllGTGh3bStsa0E9PSIsImlhdCI6MTU2NjU2OTExN30.6OEpqQggn1N16J4bIb7cCIy1fT5Gx-mzBDzMNYDAFOw";
       
       // Use Rhino3dm methods
       var sphere = new Sphere(Plane.WorldXY, 5.0);
